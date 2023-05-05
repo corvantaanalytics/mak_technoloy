@@ -860,7 +860,7 @@ h4{
 
 h5{
 	line-height:1.4em;
-	font-size:var(--font-22);
+	/* font-size:var(--font-22); */
 }
 
 h6{
