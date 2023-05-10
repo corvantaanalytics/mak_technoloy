@@ -977,7 +977,7 @@
 .fluid-one_column-inner-1{
 	position:relative;
 	/* max-width:620px; */
-	padding:67px 15px 67px 100px;
+	padding:0px 15px 0px 100px;
 }
 
 .fluid-one_image{
@@ -7365,7 +7365,7 @@
 
 .sidebar-page-container{
 	position:relative;
-	padding:110px 0px 80px;
+	padding:110px 0px 0px;
 }
 
 .sidebar-page-container .content-side,
