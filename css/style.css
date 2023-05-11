@@ -371,7 +371,7 @@
 
 .about-one{
 	position:relative;
-	padding:90px 0px 60px;
+	padding:30px 0px 0px;
 }
 
 .about-one .auto-container{
@@ -719,7 +719,7 @@
 
 .service-two{
 	position:relative;
-	padding:110px 0px 110px;
+	padding:30px 0px 0px;
 }
 
 .service-two-1{
@@ -929,6 +929,12 @@
 	background-color:var(--color-five);
 }
 
+.fluid-one-2{
+	position:relative;
+	padding-left: 27rem;
+	background-color:var(--color-five);
+}
+
 .fluid-one .owl-nav{
 	display:none;
 }
@@ -976,6 +982,7 @@
 }
 .fluid-one_column-inner-1{
 	position:relative;
+	margin-top: -2rem;
 	/* max-width:620px; */
 	padding:0px 15px 0px 100px;
 }
@@ -1106,7 +1113,7 @@
 }
 .team-two{
 	position:relative;
-	padding:50px 0px 70px;
+	padding:0px 0px 0px;
 }
 
 .team-color-box{
@@ -2518,7 +2525,7 @@
 
 .about-two{
 	position:relative;
-	padding:110px 0px 80px;
+	padding:110px 0px 30px;
 }
 
 .about-two .sec-title_two{
@@ -2717,7 +2724,7 @@
 
 .services-one{
 	position:relative;
-	padding:100px 0px 100px;
+	padding:50px 0px 20px;
 	background-color:var(--color-thirtynine);
 }
 
@@ -2997,7 +3004,7 @@
 .case-one{
 	position:relative;
 	overflow:hidden;
-	padding:110px 0px 110px;
+	padding:30px 0px 110px;
 }
 
 .case-one_pattern-layer{
@@ -3256,7 +3263,7 @@
 
 .choose-one{
 	position:relative;
-	padding-bottom:var(--padding-bottom-120);
+	padding-bottom:var(--padding-bottom-40);
 }
 
 .choose-one_pattern-layer{
@@ -7067,7 +7074,7 @@
 
 .process-one{
 	position:relative;
-	padding:100px 0px 70px;
+	padding:50px 0px 0px;
 	background-color:var(--color-seventyfour);
 }
 
@@ -7234,7 +7241,7 @@
 
 .testimonial-three_carousel-inner{
 	position:relative;
-	padding-top:var(--padding-top-120);
+	padding-top:var(--padding-top-50);
 }
 
 .testimonial-three_review{
@@ -7365,7 +7372,7 @@
 
 .sidebar-page-container{
 	position:relative;
-	padding:110px 0px 0px;
+	padding:50px 0px 0px;
 }
 
 .sidebar-page-container .content-side,

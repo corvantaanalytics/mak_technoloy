@@ -9,7 +9,7 @@
 
 .main-footer{
 	position:relative;
-	padding:100px 0px 0px;
+	padding:25px 0px 0px;
 	background-color:var(--color-twentysix);
 	background-position:center center;
 	background-repeat:no-repeat;
@@ -22,7 +22,7 @@
 
 .main-footer .widgets-section{
 	position:relative;
-	padding-bottom:var(--padding-bottom-50);
+	/* padding-bottom:var(--padding-bottom-50); */
 }
 
 .main-footer .logo-widget{

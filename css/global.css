@@ -1781,6 +1781,13 @@ img{
 	margin-top:var(--margin-top-20);
 }
 
+.sec-title_heading-1{
+	position:relative;
+	font-weight:700;
+	text-transform:capitalize;
+	margin-top:var(--margin-top-50);
+}
+
 .sec-title_heading span{
 	color:var(--main-color);
 }
