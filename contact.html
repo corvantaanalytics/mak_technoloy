@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
 	<meta charset="utf-8">
@@ -23,7 +23,7 @@
 
 	<!-- Responsive -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=2.0" >
 
 </head>
 
@@ -57,8 +57,8 @@
 						<!-- Social Box -->
 						<ul class="header-social_box">
 
-							<li><a href="https://www.linkedin.com/company/mak-technologies-llc/" target="_blank"
-									target="_blank" class="fa-brands fa-linkedin fa-fw"></a></li>
+							<li><a href="https://www.linkedin.com/company/mak-technologies-llc/" target="_blank" aria-label="LinkedIn"
+									 class="fa-brands fa-linkedin fa-fw"></a></li>
 						</ul>
 
 					</div>
@@ -83,16 +83,17 @@
 								<!-- Main Menu -->
 								<nav class="main-menu show navbar-expand-md">
 									<div class="navbar-header">
-										<button class="navbar-toggler" type="button" data-toggle="collapse"
-											data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-											aria-expanded="false" aria-label="Toggle navigation">
+										<button class="navbar-toggler" name="navbarToggler" type="button"name="navbarToggle"
+											data-toggle="collapse" data-target="#navbarSupportedContent"
+											aria-controls="navbarSupportedContent" aria-expanded="false"
+											aria-label="Toggle navigation">
 											<span class="icon-bar"></span>
 											<span class="icon-bar"></span>
 											<span class="icon-bar"></span>
 										</button>
 									</div>
 
-									<div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
+									<div class="navbar-collapse collapse clearfix" id="navbarSupportedContentRow">
 										<ul class="navigation clearfix">
 											<li class="dropdown"><a href="#">Home</a>
 												<ul>
@@ -131,20 +132,10 @@
 								<div class="outer-box d-flex align-items-center">
 
 									<!-- Search Box -->
-									<div class="search-box">
-										<form method="post" action="contact.html">
-											<div class="form-group">
-												<input type="search" name="search-field" value=""
-													placeholder="Search..." required>
-												<button type="submit"><span class="icon fa fa-search"></span></button>
-											</div>
-										</form>
-									</div>
-
 									<!-- Language -->
 									<div class="language dropdown">
-										<button class="btn dropdown-toggle" type="button" id="dropdownMenu1"
-											data-bs-toggle="dropdown" aria-expanded="false"><i
+										<button class="btn dropdown-toggle" name="dropdownMenu" type="button"
+											id="dropdownMenu1" data-bs-toggle="dropdown" aria-expanded="false"><i
 												class="fa-solid fa-globe fa-fw"></i>English &nbsp;<span
 												class="fa fa-angle-down"></span></button>
 										<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
@@ -200,20 +191,21 @@
 							<div class="outer-box d-flex align-items-center">
 
 								<!-- Search Box -->
-								<div class="search-box">
-									<form method="post" action="contact.html">
-										<div class="form-group">
-											<input type="search" name="search-field" value="" placeholder="Search..."
+								
+									
+										
+											 placeholder="Search..."
 												required>
-											<button type="submit"><span class="icon fa fa-search"></span></button>
+											
+													class="icon fa fa-search"></span></button>
 										</div>
 									</form>
 								</div>
 
 								<!-- Language -->
 								<div class="language dropdown">
-									<button class="btn dropdown-toggle" type="button" id="dropdownMenu2"
-										data-bs-toggle="dropdown" aria-expanded="false"><i
+									<button class="btn dropdown-toggle" name="dropDownButton" type="button"
+										id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false"><i
 											class="fa-solid fa-globe fa-fw"></i>English &nbsp;<span
 											class="fa fa-angle-down"></span></button>
 									<ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
@@ -254,11 +246,12 @@
 				<nav class="menu-box">
 					<div class="nav-logo"><a href="index.html"><img src="images/logo.png" alt="logo" title=""></a></div>
 					<!-- Search -->
-					<div class="search-box">
-						<form method="post" action="contact.html">
-							<div class="form-group">
-								<input type="search" name="search-field" value="" placeholder="SEARCH HERE" required>
-								<button type="submit"><span class="icon flaticon-001-loupe"></span></button>
+					
+						
+							
+								 placeholder="SEARCH HERE" required>
+								
+										class="icon flaticon-001-loupe"></span></button>
 							</div>
 						</form>
 					</div>
@@ -466,11 +459,11 @@
 	<!-- Search Popup -->
 	<div class="search-popup">
 		<div class="color-layer"></div>
-		<button class="close-search"><span class="flaticon-020-x-mark"></span></button>
+		<button class="close-search" name="closeSearch" name="closeSearch"><span class="flaticon-020-x-mark"></span></button>
 		<form method="post" action="blog.html">
-			<div class="form-group">
-				<input type="search" name="search-field" value="" placeholder="Search Here" required="">
-				<button type="submit"><i class="flaticon-001-loupe"></i></button>
+			
+				 placeholder="Search Here" required="">
+				<button name="Search" type="submit"><i class="flaticon-001-loupe"></i></button>
 			</div>
 		</form>
 	</div>

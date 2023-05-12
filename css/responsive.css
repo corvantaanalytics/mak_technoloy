@@ -339,7 +339,7 @@
 		font-size:var(--font-26);
 	}
 	
-	#navbarSupportedContent {
+	#navbarSupportedContentRow {
 		display: block;
 	}
 	
@@ -627,7 +627,7 @@
 	.nav-outer .mobile-nav-toggler{
 		display: block;
 		margin: 0;
-		padding: 8px 0;
+		/* padding: 8px 0; */
 		margin-left: 20px;
 	}
 	
