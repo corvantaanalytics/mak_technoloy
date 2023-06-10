@@ -1095,7 +1095,7 @@
 .fluid-block_text{
 	position:relative;
 	line-height:24px;
-	color:var(--color-six);
+	color: #0B5ADB;
 	font-size:var(--font-16);
 }
 
