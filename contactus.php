@@ -4,9 +4,9 @@
   use PHPMailer\PHPMailer\Exception;
   use PHPMailer\PHPMailer\SMTP;
 
-  require 'PHPMailer/src/PHPMailer.php';
-  require 'PHPMailer/src/Exception.php';
-  require 'PHPMailer/src/SMTP.php';
+  require 'mailer/PHPMailer.php';
+  require 'mailer/Exception.php';
+  require 'mailer/SMTP.php';
 
   if ($_SERVER["REQUEST_METHOD"] == "POST") {
       $name = $_POST['name'];
