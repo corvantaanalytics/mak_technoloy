@@ -176,31 +176,34 @@ $.ajax({
 
                                     <div class="navbar-collapse collapse clearfix" id="navbarSupportedContentRow">
                                         <ul class="navigation clearfix">
-                                            <li class="dropdown"><a href="index.html">Home</a>
-                                                <ul>
-                                                    <li><a href="index.html">Homepage One</a></li>
-                                                    <li><a href="index-3.html">Homepage Two</a></li>
-                                                </ul>
-                                            </li>
+                                            <li><a href="index.html">Home</a></li>
                                             <li><a href="about.html">About Us</a></li>
                                             <li class="dropdown"><a href="#">Services</a>
-                                                <ul>
-                                                    <li><a href="Innovation.service.html">Innovation</a></li>
-                                                    <li><a href="Consulting.service.html">Consulting</a></li>
-                                                    <li><a href="SAP.service.html">SAP</a></li>
-                                                    <li><a href="PLM.services.html">PLM</a></li>
-                                                    <li><a href="program.management.service.html">Program & Project
-                                                            Management</a>
-                                                    </li>
-                                                    <li><a href="Application-management.service.html">Application
-                                                            Managemnet</a></li>
-                                                    <li><a href="Validating-Testing.service.html">Validating &
-                                                            Testing</a></li>
-                                                    <li><a href="Training.services.html">Training</a></li>
-                                                    <li><a href="staffing.service.html">Staffing Services</a></li>
-                                                    <li></li>
-                                                </ul>
-                                            </li>
+												<ul class="">
+													<div class="submenu-container">
+														<div class="submenu-options">
+															<li><a href="innovation.service.html" class="dropdown-text">Innovation</a></li>
+															<li><a href="Validating-Testing.service.html">Validating & Testing</a></li>
+															<li><a href="SAP.service.html">SAP</a></li>
+															<li><a href="Consulting.service.html">Consulting</a></li>
+															<li><a href="program.management.service.html">Program & Project Management</a></li>
+															<li><a href="PLM.services.html">PLM</a></li>
+															<li><a href="staffing.service.html">Staffing Services</a></li>
+															<li><a href="Application-management.service.html">Application Management</a></li>
+															<li><a href="Training.services.html">Training</a></li>
+															
+														</div>
+														<div class="submenu-image">
+															<div>
+																<img src="images/navbar/service1.jpg" alt="Service 1" class="nav-image">
+																<div class="nav-caption">
+																	<a href="Consulting.service.html">Learn more about our Consulting</a>
+																</div>
+															</div>
+														</div>
+													</div>
+												</ul>
+											</li>
                                             <li><a href="careers.html">Careers</a>
                                             </li>
                                             <li><a href="clients.html">Clients</a>
