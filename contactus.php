@@ -183,12 +183,12 @@ $.ajax({
 													<div class="submenu-container">
 														<div class="submenu-options">
 															<li><a href="innovation.service.html" class="dropdown-text">Innovation</a></li>
-															<li><a href="Validating-Testing.service.html">Validating & Testing</a></li>
+															<li><a href="IntelligentAutomation.html">Intelligent Automation</a></li>
 															<li><a href="SAP.service.html">SAP</a></li>
-															<li><a href="Consulting.service.html">Consulting</a></li>
+															<li><a href="Consulting.service.html">Consulting Services</a></li>
 															<li><a href="program.management.service.html">Program & Project Management</a></li>
-															<li><a href="PLM.services.html">PLM</a></li>
-															<li><a href="staffing.service.html">Staffing Services</a></li>
+															<!-- <li><a href="PLM.services.html">PLM</a></li> -->
+															<li><a href="staffing.service.html">Strategic Sourcing</a></li>
 															<li><a href="Application-management.service.html">Application Management</a></li>
 															<li><a href="Training.services.html">Training</a></li>
 															
@@ -197,7 +197,7 @@ $.ajax({
 															<div>
 																<img src="images/navbar/service1.jpg" alt="Service 1" class="nav-image">
 																<div class="nav-caption">
-																	<a href="Consulting.service.html">Learn more about our Consulting</a>
+																	<a href="Consulting.service.html">Learn more about our Consulting Services</a>
 																</div>
 															</div>
 														</div>
@@ -247,47 +247,41 @@ $.ajax({
             </div>
 
             <!-- Sticky Header  -->
-            <div class="sticky-header">
-                <div class="auto-container">
-                    <div class="d-flex justify-content-between align-items-center">
-                        <!-- Logo -->
-                        <div class="logo">
-                            <a href="index.html" title=""><img src="images/logo-3.png" class="img_logo-w" alt="logo"
-                                    title=""></a>
-                        </div>
+			<!-- <div class="sticky-header">
+				<div class="auto-container">
+					<div class="d-flex justify-content-between align-items-center">
+						<div class="logo">
+							<a href="index.html" title=""><img src="images/logo-3.png" class="img_logo-w" alt="logo"
+									title=""></a>
+						</div>
 
-                        <!-- Right Col -->
-                        <div class="right-box d-flex align-items-center flex-wrap">
-                            <!-- Main Menu -->
-                            <nav class="main-menu">
-                                <!--Keep This Empty / Menu will come through Javascript-->
-                            </nav>
-                            <!-- Main Menu End-->
+						<div class="right-box d-flex align-items-center flex-wrap">
+							<nav class="main-menu">
+							</nav>
 
-                            <div class="outer-box d-flex align-items-center">
+							<div class="outer-box d-flex align-items-center">
 
-                                <div class="button-box">
-                                    <a class="btn-style-three theme-btn btn-item">
-                                        <div class="btn-wrap">
-                                            <span class="text-one">Contact Us <i
-                                                    class="fa-solid fa-arrow-right fa-fw"></i></span>
-                                            <span class="text-two">Contact Us <i
-                                                    class="fa-solid fa-arrow-right fa-fw"></i></span>
-                                        </div>
-                                    </a>
-                                </div>
+								<div class="button-box">
+									<a class="btn-style-three theme-btn btn-item" href="contactus.php">
+										<div class="btn-wrap">
+											<span class="text-one">Contact Us <i
+													class="fa-solid fa-arrow-right fa-fw"></i></span>
+											<span class="text-two">Contact Us <i
+													class="fa-solid fa-arrow-right fa-fw"></i></span>
+										</div>
+									</a>
+								</div>
 
-                                <!-- Mobile Navigation Toggler -->
-                                <div class="mobile-nav-toggler"><span class="icon fa-solid fa-bars fa-fw"></span></div>
+								<div class="mobile-nav-toggler"><span class="icon fa-solid fa-bars fa-fw"></span></div>
 
-                            </div>
+							</div>
 
-                        </div>
+						</div>
 
-                    </div>
-                </div>
-            </div>
-            <!-- End Sticky Menu -->
+					</div>
+				</div>
+			</div> -->
+			<!-- End Sticky Menu -->
 
             <!-- Mobile Menu  -->
             <div class="mobile-menu">
