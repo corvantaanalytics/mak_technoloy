@@ -986,6 +986,12 @@
 	/* max-width:620px; */
 	padding:0px 15px 0px 100px;
 }
+.fluid-one_column-inner-2{
+	position:relative;
+	margin-top: -2rem;
+	/* max-width:620px; */
+	padding: 0px 10px 0px 25px;
+}
 
 .fluid-one_image{
 	position:relative;
@@ -8975,3 +8981,31 @@
 	font-weight: 100;
 	padding-right: 3rem;
 }
+
+.slider {
+	width: 80%; /* Adjust the width as needed */
+	margin: 0 auto; /* Center the slider */
+	position: relative;
+	padding-top: 710px;
+	text-align: center;
+  }
+  
+  .slider > img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	transition: all 0.5s;
+  }
+  
+  .slider input[type='radio'] ~ img {
+	opacity: 0;
+	transform: scale(1.1);
+	visibility: hidden;
+  }
+  
+  .slider input[type='radio']:checked+img {
+	opacity: 1;
+	transform: scale(1);
+	visibility: visible;
+  }
+  
