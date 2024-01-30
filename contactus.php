@@ -175,30 +175,32 @@ $.ajax({
                                     </div>
 
                                     <div class="navbar-collapse collapse clearfix" id="navbarSupportedContentRow">
-                                        <ul class="navigation clearfix">
-                                            <li><a href="index.html">Home</a></li>
-                                            <li><a href="about.html">About Us</a></li>
-                                            <li class="dropdown"><a href="#">line of business tab </a>
-												<ul style="width: 30rem;">
-													<div class="line-container">
-														<div class="line-options">
-															<li><a href="innovation.service.html" class="dropdown-text">Innovation</a></li>
-															<li><a href="IntelligentAutomation.html">Intelligent Automation</a></li>
+										<ul class="navigation clearfix">
+											<li><a href="index.html">Home</a>
+											</li>
+											<li><a href="about.html">About Us</a></li>
+											<li class="dropdown"><a href="#">line of business</a>
+												<ul style="width: 20rem;">
+													<div class="submenu-container">
+														<div class="submenu-options">
 															<li><a href="SAP.service.html">SAP</a></li>
+															<li><a href="IntelligentAutomation.html">Intelligent Automation</a></li>
+															<li><a href="innovation.service.html" class="dropdown-text">Innovation</a></li>
+															<li><a href="Analytics.html">Analytics</a></li>
 														</div>
-														<div class="submenu-image">
+														<!-- <div class="submenu-image">
 															<div>
 																<img src="images/navbar/service1.jpg" alt="Service 1" class="nav-image">
 																<div class="nav-caption">
 																	<a href="SAP.service.html">Learn more about our SAP</a>
 																</div>
 															</div>
-														</div>
+														</div> -->
 													</div>
 												</ul>
 											</li>
-                                            <li class="dropdown"><a href="#">Services</a>
-												<ul class="">
+											<li class="dropdown"><a href="#">Services</a>
+												<ul  style="width: 25rem;">
 													<div class="submenu-container">
 														<div class="submenu-options">
 															<li><a href="Consulting.service.html">Consulting Services</a></li>
@@ -207,23 +209,22 @@ $.ajax({
 															<li><a href="staffing.service.html">Strategic Sourcing</a></li>
 															<li><a href="Application-management.service.html">Application Management</a></li>
 															<li><a href="Training.services.html">Training</a></li>
-															
 														</div>
-														<div class="submenu-image">
+														<!-- <div class="submenu-image">
 															<div>
 																<img src="images/navbar/service1.jpg" alt="Service 1" class="nav-image">
 																<div class="nav-caption">
 																	<a href="Consulting.service.html">Learn more about our Consulting Services</a>
 																</div>
 															</div>
-														</div>
+														</div> -->
 													</div>
 												</ul>
 											</li>
-                                            <li><a href="careers.html">Careers</a>
-                                            </li>
-                                        </ul>
-                                    </div>
+											<li><a href="careers.html">Careers</a>
+											</li>
+										</ul>
+									</div>
 
                                 </nav>
                                 <!-- Main Menu End-->
@@ -276,7 +277,7 @@ $.ajax({
 							<div class="outer-box d-flex align-items-center">
 
 								<div class="button-box">
-									<a class="btn-style-three theme-btn btn-item" href="contactus.php">
+									<a class="btn-style-three theme-btn btn-item"  href="#">
 										<div class="btn-wrap">
 											<span class="text-one">Contact Us <i
 													class="fa-solid fa-arrow-right fa-fw"></i></span>
@@ -474,7 +475,7 @@ $.ajax({
                         <div class="cta-one_text">As a app web crawler expert, We will help to organize.</div>
                     </div>
                     <div class="right-box">
-                        <a class="cta-one_btn theme-btn" href="contactus.php">get a quote</a>
+                        <a class="cta-one_btn theme-btn"  href="#">get a quote</a>
                     </div>
                 </div>
             </div>
