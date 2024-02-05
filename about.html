@@ -24,7 +24,22 @@
 	<!-- Responsive -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, ">
-
+	<script>
+		// Smooth scroll function with offset
+		function scrollToSection(elementId) {
+			var element = document.getElementById(elementId);
+			var offset = 100; // Adjust this offset as needed
+			var bodyRect = document.body.getBoundingClientRect().top;
+			var elementRect = element.getBoundingClientRect().top;
+			var elementPosition = elementRect - bodyRect;
+			var offsetPosition = elementPosition - offset;
+	
+			window.scrollTo({
+				top: offsetPosition,
+				behavior: 'smooth'
+			});
+		}
+	</script>
 </head>
 
 <body>
@@ -45,7 +60,7 @@
 
 						<!-- Info List -->
 						<ul class="info-list">
-							<li><a href="#"><span class="icon fa-solid fa-phone fa-fw"></span>+1 513-300-4068</a></li>
+							<li><a href="#"><span class="icon fa-solid fa-phone fa-fw"></span>+1 513 398 9270</a></li>
 							<li><a href="#"><span class="icon fa-solid fa-envelope fa-fw"></span>
 									hr@maktechnologiesllc.com</a>
 							</li>
@@ -94,7 +109,19 @@
 										<ul class="navigation clearfix">
 											<li><a href="index.html">Home</a>
 											</li>
-											<li><a href="about.html">About Us</a></li>
+											<li class="dropdown"><a href="about.html">About Us</a>
+												<ul style="width: 30rem;">
+													<div class="submenu-container">
+														<div class="submenu-options">
+															<li><a href="about.html">Who We Are</a></li>
+															<li><a href="about.html#location">Our Locations</a></li>
+															<li><a href="about.html#leadership">Our Leadership</a></li>
+															<li><a href="about.html#diversity">Diversity, Equity & Inclusion</a></li>
+															<li><a href="about.html#social">Social Responsibility Commitment</a></li>
+														</div>
+													</div>
+												</ul>
+											</li>
 											<li class="dropdown"><a href="#">line of business</a>
 												<ul style="width: 20rem;">
 													<div class="submenu-container">
@@ -104,14 +131,6 @@
 															<li><a href="innovation.service.html" class="dropdown-text">Innovation</a></li>
 															<li><a href="Analytics.html">Analytics</a></li>
 														</div>
-														<!-- <div class="submenu-image">
-															<div>
-																<img src="images/navbar/service1.jpg" alt="Service 1" class="nav-image">
-																<div class="nav-caption">
-																	<a href="SAP.service.html">Learn more about our SAP</a>
-																</div>
-															</div>
-														</div> -->
 													</div>
 												</ul>
 											</li>
@@ -121,19 +140,10 @@
 														<div class="submenu-options">
 															<li><a href="Consulting.service.html">Consulting Services</a></li>
 															<li><a href="program.management.service.html">Program & Project Management</a></li>
-															<!-- <li><a href="PLM.services.html">PLM</a></li> -->
 															<li><a href="staffing.service.html">Strategic Sourcing</a></li>
 															<li><a href="Application-management.service.html">Application Management</a></li>
 															<li><a href="Training.services.html">Training</a></li>
 														</div>
-														<!-- <div class="submenu-image">
-															<div>
-																<img src="images/navbar/service1.jpg" alt="Service 1" class="nav-image">
-																<div class="nav-caption">
-																	<a href="Consulting.service.html">Learn more about our Consulting Services</a>
-																</div>
-															</div>
-														</div> -->
 													</div>
 												</ul>
 											</li>
@@ -169,43 +179,6 @@
 					</div>
 				</div>
 			</div>
-
-			<!-- Sticky Header  -->
-			<!-- <div class="sticky-header">
-				<div class="auto-container">
-					<div class="d-flex justify-content-between align-items-center">
-						<div class="logo">
-							<a href="index.html" title=""><img src="images/logo-3.png" class="img_logo-w" alt="logo"
-									title=""></a>
-						</div>
-
-						<div class="right-box d-flex align-items-center flex-wrap">
-							<nav class="main-menu">
-							</nav>
-
-							<div class="outer-box d-flex align-items-center">
-
-								<div class="button-box">
-									<a class="btn-style-three theme-btn btn-item">
-										<div class="btn-wrap">
-											<span class="text-one">Contact Us <i
-													class="fa-solid fa-arrow-right fa-fw"></i></span>
-											<span class="text-two">Contact Us <i
-													class="fa-solid fa-arrow-right fa-fw"></i></span>
-										</div>
-									</a>
-								</div>
-
-								<div class="mobile-nav-toggler"><span class="icon fa-solid fa-bars fa-fw"></span></div>
-
-							</div>
-
-						</div>
-
-					</div>
-				</div>
-			</div> -->
-			<!-- End Sticky Menu -->
 
 			<!-- Mobile Menu  -->
 			<div class="mobile-menu">
@@ -253,46 +226,9 @@
 									meet or exceed our customer expectations.</div>
 							</div>
 							
-							<!-- About Info Tabs -->
-							<div class="about-info-tabs">
-								<!-- About Tabs -->
-								<!-- <div class="about-tabs tabs-box">
-
-									<ul class="tab-btns tab-buttons clearfix">
-										<li data-tab="#prod-mission" class="tab-btn active-btn">Our Growth</li>
-										<li data-tab="#prod-vision" class="tab-btn">Our Vision</li>
-										<li data-tab="#prod-value" class="tab-btn">Our Mission</li>
-									</ul>
-
-									<div class="tabs-content">
-
-										<div class="tab active-tab" id="prod-mission">
-											<div class="content">
-												<div class="text">155% average YoY growth in Revenue since inception in
-													2011
-												</div>
-											</div>
-										</div>
-
-										<div class="tab" id="prod-vision">
-											<div class="content">
-												<div class="text">To implement cutting-edge IT solutions for clients while maintaining the highest level of ethics and integrity
-
-												</div>
-											</div>
-										</div>
-										<div class="tab" id="prod-value">
-											<div class="content">
-												<div class="text">To be the premier provider of talent by continuously striving to exceed client expectations and deliver unparalleled value
-												</div>
-											</div>
-										</div>
-
-									</div>
-								</div> -->
-							</div>
 						</div>
 					</div>
+				
 					<!-- Image Column -->
 					<div class="about-one_image-column-two col-lg-6 col-md-12 col-sm-12">
 						<div class="about-one-image-inner-two">
@@ -309,44 +245,111 @@
 									<div class="about-one_counter-text">years in<br> Business</div>
 								</div>
 								<img src="images/background/about-img-2.jpg" alt="about" />
-								<!-- <div class="about-one_award">
-									<div class="about-one_award-inner">
-										<div class="about-one_award-icon">
-											<img src="images/icons/award.png" alt="award" />
-										</div>
-										<strong>Best Awarded Company</strong>
-                                        We adapt our delivery to the way you work, whether as an external provider.
-									</div>
-								</div> -->
 							</div>
 						</div>
 					</div>
+					
+				</div>
+			</div>
+			
+		</section>
+		<!-- End About One -->
+		<section id="location" style="margin-bottom: 8rem;">
+		</section>
+		<section class="section-about" id="location">
+			<div class="auto-container" >
+				<div class="sec-title centered" >  
+					<h2 class="sec-title_heading line-for-heading">Our Locations</h2>
+					<img src="images/clients/office_location.png" alt="consulting">
 				</div>
 			</div>
 		</section>
-		<!-- End About One -->
-         
-		<div class="auto-container">
+		
+		<section id="leadership" style="margin-bottom: 12rem;">
+		</section>
+	    <section class="setion-about">
+		<div class="auto-container"id="leadership">
+			<div class="sec-title centered" style="margin-top: 2rem;">
+				<h2 class="sec-title_heading line-for-heading">Our Leadership</h2>
+				<div class="tabs-content">
+					<p  class="sec-title_text" style="text-align: left;">At MAK, our purpose is delivering business value through our people, processes, and technology to our diverse industry clients. With a combined 100 years of work experience from the leadership team, we ensure the solutions we offer to our clients are tailored, bold and innovative. We support our clients’ needs from initial discovery and evaluation all the way through to program execution and multi-year production support outsourcing. Our single, cohesive model simplifies your customer experience and ensures your satisfaction. They are the foundation of our success.</p>
+					<div id="image-slider" class="splide" >
+						<div class="splide__track">
+							  <ul class="splide__list">
+								  <li class="splide__slide">
+									  <img src="images/clients/sirini.png">
+								  </li>
+								  <li class="splide__slide">
+									  <img src="images/clients/raju.png">
+								  </li>
+								  <li class="splide__slide">
+									  <img src="images/clients/senthil.png">
+								  </li>
+								  <li class="splide__slide">
+									<img src="images/clients/sailija.png">
+								</li>
+							  </ul>
+						</div>
+					  </div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+		<section id="diversity" style="margin-bottom: 10rem;">
+		</section>
+		<section class="section-about">
+		<div class="auto-container" id="diversity">
+			<div class="sec-title centered" style="margin-top: 2rem;">
+				<h2 class="sec-title_heading line-for-heading">Diversity, Equity & Inclusion</h2>
+				<div class="tab">
+					<div class="tabs-content">
+						<p  class="sec-title_text">Our promise is to champion diversity, build an inclusive culture, and do our part to create a more equitable environment. At MAK, you are welcome for who you are, no matter where you come from, what you look like, or how you identify yourself. Ensuring that we are always recruiting, retaining, and promoting a diverse mix of colleagues who are representative of our company gives us a great opportunity to have access to a broad range of ideas and allows us to give you wide variety of creative and innovative solutions. We believe that when people feel respected and included, they can be more creative, innovative, and successful.</p>
+						<div id="image-slider" class="splide" >
+							<div class="splide__track">
+								  <ul class="splide__list">
+									  <li class="splide__list">
+										  <img src="images/clients/diversity_equity_inclusion.jpg">
+									  </li>
+								  </ul>
+							</div>
+						  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+		<section id="social" style="margin-bottom: 10rem;">
+		</section>
+		<section class="section-about">
+		<div class="auto-container" id="social">
+			<div class="sec-title centered" style="margin-top: 2rem;">
+				<h2 class="sec-title_heading line-for-heading">Social responsibility commitment</h2>
+				<div class="tab">
+					<div class="content">
+						<p  class="sec-title_text">MAK Technologies is deeply committed to social responsibility, with a focus on sustainable, equitable and just development. We take pride in our involvement with community projects and volunteer work, supporting global initiatives to create positive change and improve the well-being of underprivileged communities. Our dedication to social responsibility is an integral part of our corporate standards.</p>
+					</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+		<!-- <div class="auto-container">
 			<div class="choose-tabs tabs-box">
-
-
 				<div class="about-info-tabs">
-					<!-- About Tabs -->
 					<div class="about-tabs tabs-box">
-
-						<!-- Tab Btns -->
 						<ul class="tab-btns tab-buttons clearfix mt-5">
-							<li data-tab="#prod-mission" class="tab-btn active-btn">Our Locations</li>
-							<li data-tab="#prod-vision" class="tab-btn">Our Leadership</li>
-							<li data-tab="#prod-value" class="tab-btn">Diversity, Equity & Inclusion</li>
-							<li data-tab="#prod-Social" class="tab-btn">Social responsibility commitment</li>
+							<li data-tab="#location" class="tab-btn active-btn">Our Locations</li>
+							<li data-tab="#leadership" class="tab-btn">Our Leadership</li>
+							<li data-tab="#diversity" class="tab-btn">Diversity, Equity & Inclusion</li>
+							<li data-tab="#social" class="tab-btn">Social responsibility commitment</li>
 
 						</ul>
 
-						<!-- Tabs Container -->
 						<div class="tabs-content">
 
-							<div class="tab active-tab" id="prod-mission">
+							<div class="tab active-tab" id="location">
 								<div class="tabs-content location-text" >
 									<div id="image-slider" class="splide" >
 										<div class="splide__track">
@@ -360,8 +363,7 @@
 								</div>
 							</div>
 
-							<!-- Tab / Active Tab -->
-							<div class="tab sec-title centered" id="prod-vision">
+							<div class="tab sec-title centered" id="leadership">
 								<div class="tabs-content">
 									<p  class="sec-title_text" style="text-align: left;">At MAK, our purpose is delivering business value through our people, processes, and technology to our diverse industry clients. With a combined 100 years of work experience from the leadership team, we ensure the solutions we offer to our clients are tailored, bold and innovative. We support our clients’ needs from initial discovery and evaluation all the way through to program execution and multi-year production support outsourcing. Our single, cohesive model simplifies your customer experience and ensures your satisfaction. They are the foundation of our success.</p>
 									<div id="image-slider" class="splide" >
@@ -385,8 +387,7 @@
 								</div>
 							</div>
 
-							<!-- Tab -->
-							<div class="tab" id="prod-value">
+							<div class="tab" id="diversity">
 								<div class="tabs-content">
 									<p  class="sec-title_text">Our promise is to champion diversity, build an inclusive culture, and do our part to create a more equitable environment. At MAK, you are welcome for who you are, no matter where you come from, what you look like, or how you identify yourself. Ensuring that we are always recruiting, retaining, and promoting a diverse mix of colleagues who are representative of our company gives us a great opportunity to have access to a broad range of ideas and allows us to give you wide variety of creative and innovative solutions. We believe that when people feel respected and included, they can be more creative, innovative, and successful.</p>
 									<div id="image-slider" class="splide" >
@@ -401,8 +402,7 @@
 								</div>
 							</div>
 
-							<!-- tab 4 -->
-							<div class="tab" id="prod-Social">
+							<div class="tab" id="social">
 								<div class="content">
 									<p  class="sec-title_text">MAK Technologies is deeply committed to social responsibility, with a focus on sustainable, equitable and just development. We take pride in our involvement with community projects and volunteer work, supporting global initiatives to create positive change and improve the well-being of underprivileged communities. Our dedication to social responsibility is an integral part of our corporate standards.</p>
 								</div>
@@ -411,10 +411,10 @@
 				</div>
 
 			</div>
-		</div>
+		</div> -->
 
 		<!-- Process One -->
-		<section class="process-one">
+		<section class="process-one mt-3">
 			<div class="auto-container">
 				<div class="process-one_inner-conatiner">
 					<div class="four-item-carousel owl-carousel owl-theme">
@@ -568,96 +568,6 @@
 		</section>
 		<!-- End Counter One -->
 
-		<!-- Testimonial Three -->
-		<section class="testimonial-three">
-			<div class="auto-container">
-				<div class="row clearfix">
-
-					<!-- Carousel Column -->
-					<!-- <div class="testimonial-three_carousel-column col-lg-6 col-md-12 col-sm-12">
-						<div class="testimonial-three_carousel-inner">
-							<div class="sec-title">
-								<div class="sec-title_title">Team Member</div>
-								<h2 class="sec-title_heading">Passionate Personalities, <br> <span
-										class="theme_color">Versatile</span> Brains</h2>
-							</div>
-							<div class="testimonial-three_review">Clients Reviews:</div>
-							<div class="single-item-carousel owl-carousel owl-theme">
-
-								<div class="testimonial-block_three">
-									<div class="testimonial-block_three-inner">
-										<div class="testimonial-block_three-text">“Lorem ipsum dolor sit amet,
-											consectetur adipiscing elit, sed do eiusmod tempo rincididunt ut labore et
-											dolore magna aliqua. Quis suspendisse onsectetur adipiscing.”</div>
-
-										<div class="author-box">
-											<div class="box-inner">
-												<span class="author-image">
-													<img src="images/resource/author-img-1.jpg" alt="author" />
-												</span>
-												<h5>Arnold Burner</h5>
-												<div class="designation">Formar Manager, Intime</div>
-											</div>
-										</div>
-
-									</div>
-								</div>
-
-								<div class="testimonial-block_three">
-									<div class="testimonial-block_three-inner">
-										<div class="testimonial-block_three-text">“Lorem ipsum dolor sit amet,
-											consectetur adipiscing elit, sed do eiusmod tempo rincididunt ut labore et
-											dolore magna aliqua. Quis suspendisse onsectetur adipiscing.”</div>
-
-										<div class="author-box">
-											<div class="box-inner">
-												<span class="author-image">
-													<img src="images/resource/author-img-1.jpg" alt="author" />
-												</span>
-												<h5>Arnold Burner</h5>
-												<div class="designation">Formar Manager, Intime</div>
-											</div>
-										</div>
-
-									</div>
-								</div>
-								<div class="testimonial-block_three">
-									<div class="testimonial-block_three-inner">
-										<div class="testimonial-block_three-text">“Lorem ipsum dolor sit amet,
-											consectetur adipiscing elit, sed do eiusmod tempo rincididunt ut labore et
-											dolore magna aliqua. Quis suspendisse onsectetur adipiscing.”</div>
-
-										<div class="author-box">
-											<div class="box-inner">
-												<span class="author-image">
-													<img src="images/resource/author-img-1.jpg" alt="author" />
-												</span>
-												<h5>Arnold Burner</h5>
-												<div class="designation">Formar Manager, Intime</div>
-											</div>
-										</div>
-
-									</div>
-								</div>
-
-							</div>
-						</div>
-					</div> -->
-
-					<!-- Image Column -->
-					<!-- <div class="testimonial-three_image-column col-lg-6 col-md-12 col-sm-12">
-						<div class="testimonial-three_image-inner">
-							<div class="testimonial-three_image">
-								<img src="images/resource/testimonial-img-2.png" alt="testimonial" />
-							</div>
-						</div>
-					</div> -->
-
-				</div>
-			</div>
-		</section>
-		<!-- End Testimonial Three -->
-
 		<!-- CTA One -->
 		<section class="cta-one">
 			<div class="auto-container">
@@ -726,7 +636,7 @@
 									<div class="footer-widget contact-widget">
 										<h4>Official info:</h4>
 										<ul class="contact-list">
-											<li><span class="icon fa fa-phone"></span>+1 513-300-4068
+											<li><span class="icon fa fa-phone"></span>+1 513 398 9270
 											</li>
 											<li><span class="icon fa fa-envelope"></span> hr@maktechnologiesllc.com</li>
 										</ul>
@@ -779,6 +689,19 @@
 	<script src="js/magnific-popup.min.js"></script>
 
 	<script src="js/script.js"></script>
+
+	<script>
+        // Smooth scrolling functionality
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
 
 	<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
 	<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
