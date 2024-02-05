@@ -126,7 +126,7 @@ $.ajax({
 
                         <!-- Info List -->
                         <ul class="info-list">
-                            <li><a href="#"><span class="icon fa-solid fa-phone fa-fw"></span>+1 513-300-4068</a></li>
+                            <li><a href="#"><span class="icon fa-solid fa-phone fa-fw"></span>+1 513 398 9270</a></li>
                             <li><a href="#"><span class="icon fa-solid fa-envelope fa-fw"></span>
                                     hr@maktechnologiesllc.com</a>
                             </li>
@@ -178,7 +178,19 @@ $.ajax({
 										<ul class="navigation clearfix">
 											<li><a href="index.html">Home</a>
 											</li>
-											<li><a href="about.html">About Us</a></li>
+											<li class="dropdown"><a href="about.html">About Us</a>
+												<ul style="width: 30rem;">
+													<div class="submenu-container">
+														<div class="submenu-options">
+															<li><a href="about.html">Who We Are</a></li>
+															<li><a href="#location">Our Locations</a></li>
+															<li><a href="#leadership">Our Leadership</a></li>
+															<li><a href="#diversity">Diversity, Equity & Inclusion</a></li>
+															<li><a href="#social">Social Responsibility Commitment</a></li>
+														</div>
+													</div>
+												</ul>
+											</li>
 											<li class="dropdown"><a href="#">line of business</a>
 												<ul style="width: 20rem;">
 													<div class="submenu-container">
@@ -371,7 +383,7 @@ $.ajax({
                         <div class="block-inner">
                             <span class="icon"><img src="images/icons/contact-2.png" alt="contact" /></span>
                             <strong>Contact</strong>
-                            Call:+1 513-300-4068 (US) <br>Call: +91 7799104624 (India)
+                            Call:+1 513 398 9270 (US) <br>Call: +91 7799104624 (India)
                             <br>Landline : +914029702228
                         </div>
                     </div>
@@ -536,7 +548,7 @@ $.ajax({
                                     <div class="footer-widget contact-widget">
                                         <h4>Official info:</h4>
                                         <ul class="contact-list">
-                                            <li><span class="icon fa fa-phone"></span>+1 513-300-4068
+                                            <li><span class="icon fa fa-phone"></span>+1 513 398 9270
                                             </li>
                                             <li><span class="icon fa fa-envelope"></span> hr@maktechnologiesllc.com</li>
                                         </ul>
